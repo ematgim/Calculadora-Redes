@@ -1,0 +1,25 @@
+div.bloque{
+  background-color: white;
+  border: 3px solid red;
+  float: left;
+}
+div.control{
+  margin: 40px 40px 40px 40px;
+  width: auto;
+  border: 3px solid black;
+  height: 600px ;
+  padding:10px;
+}
+div#calcured{
+  width: 45%;
+  padding: 20px;
+  left: 10px ;
+  margin-top: auto;
+  margin-bottom: auto;
+
+
+}
+div#block2{
+width: 45%;
+margin: 10px
+}

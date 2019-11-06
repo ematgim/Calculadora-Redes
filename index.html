@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type='text/javascript' src='js/calculadoraRed.js'>
+</script>
+<link rel="stylesheet" href="css/stylesheet.css">
+</style>
+
+</style>
+</head>
+<body>
+<body>
+  <div class="control">
+    <div class="bloque" id="calcured">
+      <div class="inputcalcu">
+        <p>
+          IP/MASK:
+        </p>
+        <p>
+          <input type="text" name="ip" id="ip" value="192.168.1.1" />
+          / <input type="text" name="mask" id="mask" value="24"/>
+        </p>
+          <input type="button" value="Enviar" onclick="ejecutarCalcu()">
+        </p>
+      </div>
+      <div class="outputcalcu">
+      <p>IP en Binario: <br>
+        <strong id="rIpBin"> </strong></p>
+      <p>MASCARA BINARIO: <br>
+        <strong id="rMaskBin"> </strong></p>
+      <p>HOSTS DISPONIBLES: <br>
+        <strong id="rHosts"> </strong></p>
+      <p>IP de RED: <br>
+        <strong id="rIpRed"> </strong></p>
+      <p>IP de BROADCAST: <br>
+         <strong id="rIpBroadcast"> </strong></p>
+      <p>El rango de IP disponibles son <strong id="rPriIpRango"> </strong> a <strong id="rUltiIpRango"> </strong></p>
+      <script type="text/javascript">
+        ejecutarCalcu();
+      </script>
+    </div>
+    </div>
+    <div class="bloque" id="block2">
+        Prueba
+    </div>
+  </div>
+</body>
+</html>
